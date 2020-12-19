@@ -1,0 +1,3 @@
+sudo vi /etc/crontab
+1	*	*	*	*	root /volume1/web/secure/mittreattack/importcsv.sh 
+/usr/syno/sbin/synoservicectl --reload crond
